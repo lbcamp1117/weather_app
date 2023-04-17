@@ -1,0 +1,70 @@
+.container {
+    position: fixed;
+    top: 100;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(weather_app_background.jpg);
+    
+    background-size: cover;
+    background-position: top;
+    
+  }
+  
+  
+ 
+  
+
+
+.container {
+    max-width: 800px;
+    margin: 175px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    flex-grow: 1;
+  }
+  
+  button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #74aeeb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #weather-list {
+    margin-top: 20px;
+  }
+  
+  #city-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .city-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .city-item button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
